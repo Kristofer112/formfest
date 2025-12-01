@@ -83,7 +83,7 @@ Samdu EITT heilstætt uppsagnarbréf út frá þessu, tilbúið til að prenta e
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'gpt-4-1',
+        model: 'gpt-4.1',
         messages: [
           { role: 'system', content: systemPrompt },
           { role: 'user', content: userPrompt },
